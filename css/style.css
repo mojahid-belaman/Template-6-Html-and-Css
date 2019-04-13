@@ -1,0 +1,289 @@
+/* Start body */
+body{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+.container{width: 1150px; margin: auto}
+.clearfix{clear: both;}
+/* End body*/
+/* Start navbar */
+.navbar{background: #333333;overflow: hidden;min-height: 60px}
+.navbar .logo{float: left;}
+.navbar .logo h2
+{
+    margin: 0;
+    line-height: 60px;
+    color: #FF652D;
+}
+.navbar .link{float: right;}
+.navbar .link ul{list-style: none;padding-left: 0;margin: 21px 0;}
+.navbar .link ul li{display: inline;}
+.navbar .link ul li a{text-decoration: none; color: #ffffff;padding: 20px;}
+.navbar .link ul li a.visited{background: #444444;color: #FFA523}
+.navbar .link ul li a:hover{background: #444444;color: #FFA523}
+/* End navbar */
+/* Start slider */
+.slider
+{
+    background-image: url('../image/1.jpg');
+    background-size: cover;
+    height: 600px;
+}
+.slider .info
+{
+    color: #ffffff;
+    text-align: center;
+    padding: 199px 0;
+}
+.slider .info h2{margin: 0;font-size: 45px}
+.slider .info h2 span{color: #FF652D}
+.slider .info p{margin: 43px 0;word-spacing: 2px;font-size: 20px;}
+.slider .info button
+{
+    background: #FF652D;
+    color: #ffffff;
+    border: none;
+    padding: 12px;
+    font-size: 20px;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.slider .info button:hover{background: #DD5625; color: #d8d4d4}
+/* End slider */
+/* Start info */
+.info{overflow: hidden;text-align: center;}
+.info .part{width: 24%;padding: 50px;float: left;}
+.info .part h3{padding-bottom: 20px;text-align: center;}
+.info .part p{margin: 20px 0;line-height: 25px;}
+.info .part.mini-part{background: #FF652D;}
+/* End info */
+/* Start business */
+.business{background: #333333;overflow: hidden; color: #ffffff}
+.business .photo{float: left; width: 50%;padding: 20px 0}
+.business .photo img{width: 100%;}
+.business .info{float: right;width: 50%;text-align: center;padding: 40px 0}
+.business .info h2{font-size: 30px;margin-bottom: 50px;}
+.business .info p {
+    color: #DDDDDD;
+    line-height: 28px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+.business .info button
+{
+    background: #FF652D;
+    color: #ffffff;
+    border: none;
+    padding: 12px;
+    font-size: 20px;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px
+}
+.business .info button:hover{background: #DD5625;color: #d8d4d4}
+/* End business */
+/* Start projects */
+.projects{padding: 20px 0;overflow: hidden;background: #F4F4F4}
+.projects h2{font-size: 35px;}
+.projects p
+{
+    font-weight: bold;
+    color: #333333;
+    width: 60%;
+    position: relative;
+    left: 18%;
+    line-height: 25px
+}
+.projects{text-align: center}
+.projects .line1 img{width: 33%;float: left;}
+.projects .line2 img{width: 24.77%;float: left;}
+.projects button
+{
+    background: #444444;
+    color: #ffffff;
+    border: none;
+    padding: 12px;
+    font-size: 20px;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px
+}
+.projects button:hover{background: #585858}
+/* End projects */
+/* Start footer */
+.footer{background: #333333;overflow: hidden;}
+.footer .part1{width: 29.333333%; color: #ffffff;padding: 20px; float: left;}
+.footer .part1 h2{font-size: 30px;}
+.footer .part1 span.head{color: #FF652D}
+.footer .part1 p
+{
+    width: 88%;
+    padding-top: 10px;
+    color: #DDDDDD;
+    line-height: 25px;
+}
+.footer .part1 i{padding: 10px 15px 10px 0; color: #DDDDDD;}
+.footer .part1 span{color: #DDDDDD;}
+.footer .part1 ul{list-style: none; padding: 0; margin-top: 12%;}
+.footer .part1 ul li{padding-bottom: 20px;}
+.footer .part1 ul li a{text-decoration: none; color: #DDDDDD;}
+.footer .part1 ul li a:hover{color: #ffffff}
+.footer .part1 form input
+{
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 5px 0 5px 5px;
+}
+.footer .part1 form button
+{
+    background: #FF652D;
+    color: #ffffff;
+    border: none;
+    padding: 12px 15px;
+    font-size: 20px;
+    outline: none;
+    cursor: pointer;
+}
+.footer .part1 form button:hover{background: #DD5625}
+/* End footer */
+/* Start copyright */
+.copy{
+    background: #444444;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+}
+.copy span{color: #E1652D}
+/* End copyright */
+
+/***************************** about.html ******************************/
+.content
+{
+    background: #F4F4F4;
+    padding: 60px 0;
+    overflow: hidden;
+}
+.content .info{text-align: center;}
+.content .info h2
+{
+    word-spacing: 5px;
+    margin: 0;
+    color: #333333;
+    font-size: 40px;
+}
+.content .info p
+{
+    width: 50%;
+    position: relative;
+    left: 25%;
+    line-height: 25px;
+    color: #333333;
+    font-weight: bolder;
+    padding: 20px 0;
+    text-align: center;
+}
+.content .box
+{
+    width: 27%;
+    border: 1px solid #000000;
+    padding: 20px;
+    float: left;
+    margin-right: 20px;
+}
+.content .box:hover{background: #ffffff}
+.content .box img{width: 100%;}
+.content .box h2,h3{text-align: left;font-size: 25px;}
+.content .box h3{color: #FC792D;}
+.content .box p
+{
+    position: relative;
+    left: 0%;
+    width: 100%;
+    line-height: 25px;
+    color: #333333;
+    font-weight: bolder;
+
+}
+.content hr{
+    background: #FF652D;
+    width: 60%;
+    height: 3px;
+    margin-top: 70px;
+    border: none;
+}
+.skills .desc
+{
+    width: 50%;
+    float: left;
+}
+.skills .desc h2{font-size: 30px;margin-bottom: 50px;}
+.skills .desc span{color: #FF652D;}
+.skills .desc p{line-height: 30px;}
+.skills .desc p:last-child{margin-top: 40px}
+.skills .progress{overflow: hidden; padding-top: 7%;}
+.skills .progress .techniq div
+{
+    background: #808080;
+}
+.skills .progress .techniq div span
+{
+    display: block;
+    background: #008000;
+    color: #fff;
+    height: 15px;
+    line-height: 15px;
+    text-align: right;
+    font-weight: bold;
+}
+/***************************** contact.html ******************************/
+.contact{overflow: hidden; padding: 30px 0;}
+.contact .title{text-align: center}
+.contact .title h2
+{
+    font-size: 40px;
+    font-weight: bolder;
+    color: #333333;
+}
+.contact .title p
+{
+    width: 80%;
+    position: relative;
+    left: 10%;
+    line-height: 45px;
+    font-weight: bolder;
+    font-size: 22px;
+}
+.contact form label
+{
+    display: block;
+    position: relative;
+    left: 10%;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.contact form input[type=text],textarea
+{
+    width: 80%;
+    position: relative;
+    left: 10%;
+    margin-bottom: 20px;
+    padding: 10px;
+    outline: 1px solid #000000;
+}
+.contact form textarea{height: 150px;}
+.contact form textarea{margin-bottom: 5%;}
+.contact form button
+{
+    background: #444444;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    right: 35%;
+}
+.contact form button:hover{background: #585858}
